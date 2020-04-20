@@ -1,0 +1,39 @@
+<!--
+ * @Author: Maoyao Ye
+ * @Date: 2020-04-08 17:22:52
+ * @LastEditors: Maoyao Ye
+ * @LastEditTime: 2020-04-20 20:41:28
+ * @FilePath: \Courses\AI\homework\electron-quick-start\index.html
+ * @Description: 
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'" charset="utf-8">
+  -->
+  <title>八数码</title>
+  <link rel="stylesheet" type="text/css" href="block.css" />
+</head>
+
+<body>
+  <div id="result">
+    <input type="number" min='1' max='8' id="r1" />
+    <input type="number" min='1' max='8' id="r2">
+    <input type="number" min='1' max='8' id="r3"><br>
+    <input type="number" min='1' max='8' id="r4">
+    <input type="number" min='1' max='8' id="r5">
+    <input type="number" min='1' max='8' id="r6"><br>
+    <input type="number" min='1' max='8' id="r7">
+    <input type="number" min='1' max='8' id="r8">
+    <input type="number" min='1' max='8' id="r9"><br>
+  </div>
+  <button onclick="run()">求解</button>
+</body>
+
+<script src="heap.js"></script>
+<script src="solver.js"></script>
+<script src="test.js"></script>
+
+</html>

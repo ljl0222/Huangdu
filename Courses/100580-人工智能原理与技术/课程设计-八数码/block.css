@@ -1,0 +1,11 @@
+#result input {
+      display: inline-block;
+      font-family: "微软雅黑";
+      font-size: 60px;
+      font-weight: 900;
+      text-align: center;
+      width: 100px;
+      height: 100px;
+      background: url(images/background.jpg);
+      background-size: cover;
+    }
